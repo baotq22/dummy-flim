@@ -1,0 +1,68 @@
+.movie-section {
+  padding: 20px;
+  background-color: #777777;
+}
+
+.movie-section h2 {
+  color: white;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.movie-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.movie-card {
+  width: 14rem;
+  transition: transform 0.3s;
+}
+
+.movie-card:hover {
+  transform: scale(1.1);
+}
+
+.movie-image {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.movie-card h3 {
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.pagination {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.pagination button {
+  background-color: #e50914;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  margin: 0 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.pagination button:disabled {
+  background-color: grey;
+}
+
+.pagination span {
+  margin: 0 10px;
+}
+
+@media (prefers-color-scheme: light) {
+  .movie-section {
+    background-color: #141414;
+  }
+}
